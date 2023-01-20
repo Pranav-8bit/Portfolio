@@ -1,6 +1,7 @@
 .work__filters{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     column-gap: 1.875rem;
     margin-bottom: 2.5rem;
 }
@@ -76,7 +77,7 @@
     left: 1.5rem;
     font-size: var(--h3-font-size);
     display: block;
-    background-color: #da2bb4;
+    background-color: #ff5ecc;
     height: 40px;
     width: 40px;
     cursor: pointer;
@@ -95,4 +96,32 @@
 .work__card:hover .work__category{
     opacity: 1;
     transform: translateY(0);
+}
+
+@media screen and (max-width:1024px){
+    .work__filters{
+        justify-content: center;
+    }
+
+    .work_container{
+        grid-template-columns: 450px;
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .work__container{
+        grid-template-columns: 1fr;
+    }
+
+    .work__filters{
+        row-gap: 0.25rem;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .work__container{
+        grid-template-columns: 1fr;
+    }
 }

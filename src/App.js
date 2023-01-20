@@ -4,7 +4,6 @@ import "./App.css";
 //components
 import Sidebar from "./components/sidebar/Sidebar";
 import Portfolio from "./components/portfolio/Portfolio";
-import Blog from "./components/blog/Blog";
 import Home from "./components/home/Home";
 import Contact from "./components/contact/Contact";
 import Resume from "./components/resume/Resume";
@@ -21,7 +20,6 @@ function App() {
         <Resume />
         <Portfolio />
         <Testimonial />
-        <Blog />
         <Contact />
       </main>
     </>
