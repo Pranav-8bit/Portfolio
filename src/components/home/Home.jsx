@@ -12,7 +12,7 @@ const Home = () => {
         <img src="https://cdn.discordapp.com/attachments/736227949019398235/1059156928309252106/myimage.png" alt="Me" className="home__img" />
         <h1 className="home__name">Pranav Tiwari</h1>
         <span className="home__education">
-        I'm a MERN stack Web developer
+        I'm a Frontend Enthusiast and a learner of web development.
         </span>
         <HeaderSocials />
 
