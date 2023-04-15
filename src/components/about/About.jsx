@@ -13,7 +13,7 @@ const About = () => {
         
         <div className="about__data grid">
           <div className="about__info">
-            <p className="about__description">I am Pranav Tiwari, MERN stack web developer from Ahmedabad. I have rich experience in reactJS framework and building and customization, also I am good at backend and noSQL database.</p>
+            <p className="about__description">I am Pranav Tiwari, Frontend enthusiast from Ahmedabad. I have experience in reactJS framework and building and customization, also I am learning backend with noSQL database.(MongoDB)</p>
             <a href="https://cdn.discordapp.com/attachments/736227949019398235/1064574157536378880/Pranavs_Resume_out_of_ahmdabad.pdf" className="btn">Download CV</a>
           </div>
 
