@@ -36,7 +36,7 @@ const Data = [
     category: "experience",
     icon: "icon-briefcase",
     year: "2023",
-    title: "Software Executive(Fullstack)",
+    title: "Software Executive(Fullstack) at EmpClaims",
     desc: "Experienced Full-Stack Developer good at both frontend and backend stuff, developing projects with others and always learning new things",
   },
 ];
