@@ -16,7 +16,7 @@ const Home = () => {
         </span>
         <HeaderSocials />
 
-        <a href="#contact" className="btn">Connect with me</a>
+        <a href="https://www.linkedin.com/in/pranav-tiwari-968419229" className="btn">Connect with me</a>
       
         <ScrollDown />
       </div>
