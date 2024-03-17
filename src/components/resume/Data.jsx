@@ -31,6 +31,14 @@ const Data = [
     title: "Intern trainee",
     desc: "Internship offered by Devtown. A 4-month internship program.",
   },
+  {
+    id: 5,
+    category: "experience",
+    icon: "icon-briefcase",
+    year: "2023",
+    title: "Software Executive(Fullstack)",
+    desc: "Experienced Full-Stack Developer good at both frontend and backend stuff, developing projects with others and always learning new things",
+  },
 ];
 
 
